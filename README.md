@@ -1,22 +1,34 @@
 # Movie App
 
-A Python-based Movie App that allows users to manage a list of movies, display them in a styled HTML page, and sort them by rating or year. This project also demonstrates how to use an API key stored in an environment variable for secure access to external resources.
+This is a Python-based Movie App that allows users to manage their movie collection. The app allows you to add, update, delete movies, and generate a website showcasing your movie collection.
 
 ## Features
 
-- **Movie Management**: Add, update, list, and delete movies from the application.
-- **Sorting**: Sort movies by their rating or release year.
-- **HTML Website Generation**: Generate an HTML file displaying the list of movies.
-- **Environment Variables**: Securely store and access your API key via environment variables.
+- **Add movies** to your collection
+- **Delete movies** from your collection
+- **Update movie ratings**
+- **List movies** stored in CSV or JSON format
+- **Generate a website** showcasing your movie collection
+- **Search** movies and sort them by rating or year
 
 ## Prerequisites
 
-- Python 3.x
-- Required Python packages (listed in `requirements.txt`)
+Before running the program, make sure you have the following installed:
 
-### Install Dependencies
+- **Python 3.x**: You can download Python from [here](https://www.python.org/downloads/).
+- **pip** (Python's package installer): This is typically installed with Python.
 
-Before running the application, install the necessary dependencies by using the following:
+## Setup
 
-```bash
-pip install -r requirements.txt
+# Clone the repository
+git clone https://github.com/ReshmaJohnDev/Movies-App.git
+
+# Change directory into the project folder
+cd Movies-App
+
+# Navigate to the 'src' folder (if your main.py is inside 'src')
+cd src
+
+# Run the application with Python 3
+python3 main.py
+
